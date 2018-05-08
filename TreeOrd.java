@@ -33,8 +33,10 @@ public class TreeOrd {
               na Inorder , trazendo assim uma ideia universal a ser aplicada na questão.
               
               Ao invés de comparar elemento por elemento, a ideia principal foi pegar os
-              casos diferentes de entrada e trabalhar em cima deles , com isso foi utilizado o if.
-               
+              casos diferentes e semelhantes de entrada e trabalhar em cima deles baseado 
+              nos algoritmos dados na questão,com isso foi utilizado o if nos elementos do
+              inicio e do fim , pois serão os unicos que vamos ter certeza dos seus valores.
+              
             */
             if(arvore[0][0]== arvore[1][x-1] && arvore[0][x-1]== arvore[2][x-1])
                 System.out.println("yes\n");
